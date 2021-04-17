@@ -1,0 +1,39 @@
+button {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 180px;
+    height: 180px;
+    border-radius: 10%;
+}
+
+div {
+    float: right;
+    padding-right: 30%;
+    display: block;
+}
+
+
+
+input {
+    width: 90%;
+    padding: 2%;    
+    margin: 2%;
+    border-top-left-radius: 20px;
+    border-style: double;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: darkgray;
+}
+
+input:disabled {
+    background: none;
+    border-color: black;
+    color: white;
+}
+
+

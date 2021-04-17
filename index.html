@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calcolatrice</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css/main.css'>
+    <script src='scripts/main.js'></script>
+</head>
+
+<body>
+    <div>
+        <input id='risultato' type="text" disabled>
+        <table>
+            <tr>
+                <td> <button onclick="insertNumber(9, 'risultato')"> 9 </button> </td>
+                <td> <button onclick="insertNumber(8, 'risultato')"> 8 </button> </td>
+                <td> <button onclick="insertNumber(7, 'risultato')"> 7 </button> </td>
+                <td> <button onclick="insertNumber('+', 'risultato')"> + </button> </td>
+            </tr>
+
+            <tr>
+                <td> <button onclick="insertNumber(6, 'risultato')"> 6 </button> </td>
+                <td> <button onclick="insertNumber(5, 'risultato')"> 5 </button> </td>
+                <td> <button onclick="insertNumber(4, 'risultato')"> 4 </button> </td>
+                <td> <button onclick="insertNumber('-', 'risultato')"> - </button> </td>
+            </tr>
+
+            <tr>
+                <td> <button onclick="insertNumber(3, 'risultato')"> 3 </button> </td>
+                <td> <button onclick="insertNumber(2, 'risultato')"> 2 </button> </td>
+                <td> <button onclick="insertNumber(1, 'risultato')"> 1 </button> </td>
+                <td> <button onclick="insertNumber('*', 'risultato')"> * </button> </td>
+            </tr>
+
+            <tr>
+                <td> <button onclick="insertNumber(0, 'risultato')"> 0 </button> </td>
+                <td> <button onclick="insertNumber('invio', 'risultato')"> INVIO </button> </td>
+                <td> <button onclick="insertNumber('canc', 'risultato')"> CANC </button> </td>
+                <td> <button onclick="insertNumber('/', 'risultato')"> / </button> </td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>
