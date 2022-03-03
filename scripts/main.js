@@ -1,23 +1,22 @@
-let totale = "";
+let total = "0";
 
-function insertNumber(value, box) {
-   
-   if(isText(value, "invio")) {
-       let temp = eval(totale);
+function insertValue(value, box) {
+   if(isCommand(value, "enter")) {
+       let temp = eval(total);
        document.getElementById(box).value = temp;
-       totale = temp + "";
+       total = temp + "";
    }
-   else if(isText(value, "canc")) {
-       totale = " ";
+   else if(isCommand(value, "canc")) {
+       total = "";
        document.getElementById(box).value = " ";
    }
    else {
-        totale += value;
-        document.getElementById(box).value = totale;
+        total += value;
+        document.getElementById(box).value = total;
   }
 }
 
-function isText(box, text) {
+function isCommand(box, text) {
     if(box === text ) {
         return true;
     }

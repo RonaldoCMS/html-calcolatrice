@@ -8,9 +8,8 @@ button {
 }
 
 div {
-    float: right;
-    padding-right: 30%;
-    display: block;
+    justify-content: center;
+    display: grid;
 }
 
 
